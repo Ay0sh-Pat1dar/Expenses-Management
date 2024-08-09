@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Edit your expense:-</h2>
+    <form action="/edit/<%= expenses.id %>?_method=PATCH" method="post">
+        <input type="text" name="name" placeholder="<%= expenses.name %>"><br><br>
+        <input type="text" placeholder="<%= expenses.expense %>" name="expense"><br><br>
+        <button>Edit</button>
+    </form>
+</body>
+</html>

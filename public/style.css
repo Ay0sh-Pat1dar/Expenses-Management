@@ -1,0 +1,26 @@
+div{
+    background-color: #F1F1F2;
+    color: #1995AD;
+    border-radius: 15px;
+    padding: 10px;
+    /* margin: 5px; */
+    border: 2px solid black;
+}
+body{
+    background-color: #A1D6E2;
+    margin:20px;
+}
+input{
+    border-radius: 9px;
+    padding: 5px;
+}
+form{
+    background-color: #F1F1F2;
+    border-radius: 9px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+
+
